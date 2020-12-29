@@ -8,7 +8,7 @@ The code needs the MATLAB/Octave library [GeoPDEs](http://rafavzqz.github.io/geo
 * J. A. Rossmanith and D. C. Seal, *A positivity-preserving high-order semi-Lagrangian discontinuous Galerkin scheme for the Vlasov-Poisson equations*, (https://doi.org/10.1016/j.jcp.2011.04.018)
 
 ### Folders content
-* `DG_QUAD_AD` : functions to build 2D cartesian grids and discontinuous FE spaces in one and two dimensions; functions to assemble the matrices for the 1D and 2D advection problem; functions to compute the errors and to visualize the DG numerical solution.
+* `DG_QUAD_AD` : functions to build 2D cartesian grids and discontinuous FE spaces in one and two dimensions; functions to assemble the matrices for the 1D and 2D advection problem; functions to compute the errors and to visualize the DG numerical solution (create `.vtk` files).
 * `EULERIAN-DG\timeschemes` : functions for the three temporal schemes used in the Eulerian approach (4th order Runge-Kutta and two different II order splitting schemes with Crank-Nicolson method).
 * `Helpers` : functions based on GeoPDEs library for the solution of Poisson problem and the coupling of IGA and DG methods.
 * `NeighboursStructures` : `.mat` files storing precomputed variables linked to the mesh structures.
