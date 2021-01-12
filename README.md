@@ -1,5 +1,5 @@
 # Vlasov2D-Poisson1D-DG-IGA
-Repository with the MATLAB code used for the [master thesis](https://www.politesi.polimi.it/bitstream/10589/166380/1/2020_10_Arrigoni.pdf) *"Comparison of Eulerian and semi-Lagrangian discontinuous Galerkin methods for Vlasov-Poisson system"* by Alessandra Arrigoni, discussed in October 2020 at EPFL (Lausanne, CH) and PoliMI (Milan, IT).
+Repository with the MATLAB code used for my [master thesis](https://www.politesi.polimi.it/bitstream/10589/166380/1/2020_10_Arrigoni.pdf) *"Comparison of Eulerian and semi-Lagrangian discontinuous Galerkin methods for Vlasov-Poisson system"*, defended in October 2020 at EPFL (Lausanne, CH) and PoliMI (Milan, IT).
 
 ### Dependencies and references
 The code needs the MATLAB/Octave library [GeoPDEs](http://rafavzqz.github.io/geopdes/) to solve the 1D Poisson problem with a classic isogeometric finite element method. In the code we refer to the following three research papers containing the description of the methods and the parameters for the tests:
