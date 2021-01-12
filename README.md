@@ -3,9 +3,9 @@ Repository with the MATLAB code used for the [master thesis](https://www.polites
 
 ### Dependencies and references
 The code needs the MATLAB/Octave library [GeoPDEs](http://rafavzqz.github.io/geopdes/) to solve the 1D Poisson problem with a classic isogeometric finite element method. In the code we refer to the following three research papers containing the description of the methods and the parameters for the tests:
-* B. Ayuso De Dios and S. Hajian, *High order and energy preserving discontinuous Galerkin methods for the Vlasov-Poisson system*, (https://arxiv.org/abs/1209.4025)
-* N. Crouseilles et al. 2011, *Discontinuous Galerkin semi-Lagrangian method for Vlasov-Poisson*, (https://doi.org/10.1051/proc/2011022)
-* J. A. Rossmanith and D. C. Seal, *A positivity-preserving high-order semi-Lagrangian discontinuous Galerkin scheme for the Vlasov-Poisson equations*, (https://doi.org/10.1016/j.jcp.2011.04.018)
+* B. Ayuso De Dios and S. Hajian, 2012, *High order and energy preserving discontinuous Galerkin methods for the Vlasov-Poisson system*, (https://arxiv.org/abs/1209.4025)
+* N. Crouseilles et al., 2011, *Discontinuous Galerkin semi-Lagrangian method for Vlasov-Poisson*, (https://doi.org/10.1051/proc/2011022)
+* J. A. Rossmanith and D. C. Seal, 2011, *A positivity-preserving high-order semi-Lagrangian discontinuous Galerkin scheme for the Vlasov-Poisson equations*, (https://doi.org/10.1016/j.jcp.2011.04.018)
 
 ### Folders content
 * `DG_QUAD_AD` : functions to build 2D cartesian grids and discontinuous FE spaces in one and two dimensions; functions to assemble the matrices for the 1D and 2D advection problem; functions to compute the errors and to visualize the DG numerical solution (create `.vtk` files).
